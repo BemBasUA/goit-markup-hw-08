@@ -1,10 +1,9 @@
 .logo {
-    margin-right: 95px;
-    padding: 24px 0;
+    padding: 16px 0;
     font-family: $logo-font;
     font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+    font-size: 24px;
+    line-height: 1.17;
     text-decoration: none;
     color: inherit;
 }
@@ -12,3 +11,24 @@
 .logo__accent {
     color: $accent-color;
 }
+
+
+
+
+
+
+
+// .logo {
+//     margin-right: 95px;
+//     padding: 24px 0;
+//     font-family: $logo-font;
+//     font-weight: 700;
+//     font-size: 26px;
+//     line-height: 1.19;
+//     text-decoration: none;
+//     color: inherit;
+// }
+
+// .logo__accent {
+//     color: $accent-color;
+// }
