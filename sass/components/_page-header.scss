@@ -1,19 +1,41 @@
 .page-header {
     background-color:$primary-white-color;
 }
+.mobile-header{
+    display: flex;
+    justify-content: center;
+    max-width: 480px;
+}
 .menu-button{
+    display: inline-flex;
     margin-left: auto;
     padding: 10px 0;
     border: none;
     background-color: inherit;
-
 }
-.page-header__container {
-    display: flex;
-    align-items: center;
+.icon-menu{
+    .menu-button:hover &, .menu-button:focus &{
+        fill: $accent-color;
+    }
+    .menu-button.is-open &{
+display: none;
+    }
 }
-.menu-container{
+.icon-cross{
     display: none;
+    &:hover,
+    &:focus{
+        fill: $accent-color;
+    }
+    .menu-button.is-open &{
+        display: block;
+    }
+}
+.menu-container {
+    display: none;
+   &.is-open{
+       display: block;
+   }
 }
 
 
