@@ -105,6 +105,9 @@
     @extend %list;
     display: flex;
 }
+.menu-social__item{
+    min-width: 0;
+}
 .menu-social__item:not(:last-child){
     margin-right: 20px;
 }
