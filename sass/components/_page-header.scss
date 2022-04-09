@@ -1,5 +1,6 @@
 .page-header {
     background-color:$primary-white-color;
+    border-bottom: 1px solid #ececec;
 }
 .page-header__container{
     position: relative;
@@ -18,9 +19,6 @@
     transition: color 250ms $primary-transition;
     &:hover, &:focus{
         color: $accent-color;
-    }
-    &.is-open{
-        position: fixed;
     }
 }
 .icon-menu{
@@ -109,9 +107,26 @@
     @extend %list;
     display: flex;
     flex-wrap: wrap;
+    @media screen and (max-width: 439px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
 }
-.menu-social__item:not(:last-child){
-    margin-right: 20px;
+.menu-social__item{
+    padding: 0 10px;
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+    &:first-child{
+        padding-left: 0;
+    }
+    &:last-child{
+        padding-right: 0;
+        border: none
+    }
+    @media screen and (max-width: 439px) {
+        padding: 0;
+        border: none;
+    }
 }
 .menu-social__link{
     @extend %link;
