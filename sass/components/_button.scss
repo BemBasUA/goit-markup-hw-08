@@ -1,18 +1,18 @@
-// .button {
-//     padding: 10px 32px;
-//     font-family: inherit;
-//     font-weight: 700;
-//     font-size: 16px;
-//     line-height: 1.87;
-//     letter-spacing: 0.06em;
-//     border-radius: 4px;
-//     border: 0;
-//     background-color: $accent-color;
-//     color: $primary-white-color;
-//     cursor: pointer;
-//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-//     transition: background-color 250ms $primary-transition;
-//     &:hover, &:focus{
-//     background-color: #1967a6;
-//     }
-// }
+.button {
+    padding: 10px 32px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    border: 0;
+    background-color: $accent-color;
+    color: $primary-white-color;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms $primary-transition;
+    &:hover, &:focus{
+    background-color: #1967a6;
+    }
+}

@@ -37,7 +37,7 @@
                             <svg class="contacts__icon" width="10px" height="16px">
                                 <use href="./images/icons.svg#icon-phone"></use>
                             </svg>
-                            +38&nbsp096&nbsp111&nbsp11&nbsp11
+                            +38&nbsp096&nbsp111 11&nbsp11
                         </a>
                     </li>
                     <li class="contacts__item">
@@ -70,7 +70,7 @@
     <main>
         <!-- Hero -->
         <section class="hero">
-            <div class="container">
+            <div class="container hero__container">
                 <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
                     <button data-modal-open type="button"  class="button primary">Заказать услугу</button>
             </div>
@@ -145,7 +145,12 @@
                 <h2 class="section-title">Наша команда</h2>
                 <ul class="our-team-list">
                     <li class="our-team-list__item">
-                        <img src="./images/photo-1.jpg" alt="Фото работника" width="270">
+                        <picture>
+                            <source srcset="./images/member1-img-desctop.jpg 1x, ./images/member1-img-desctop@2x.jpg 2x" media="(min-width: 1200px)">
+                            <source srcset="./images/member1-img-tablet.jpg 1x, ./images/member1-img-tablet@2x.jpg 2x" media="(min-width: 768px)">
+                            <source srcset="./images/member1-img-portrait.jpg 1x, ./images/member1-img-portrait@2x.jpg 2x">
+                            <img class="our-team-list__img" src="./images/member1-img-portrait.jpg" alt="Фото работника">
+                        </picture>
                         <div class="card">
                             <h3 class="card__title">Игорь Демьяненко</h3>
                             <p class="card__text" lang="en">Product Designer</p>
@@ -182,7 +187,14 @@
                         </div>
                     </li>
                     <li class="our-team-list__item">
-                        <img src="./images/photo-2.jpg" alt="Фото работника" width="270">
+                        <picture>
+                            <source srcset="./images/member2-img-desctop.jpg 1x, ./images/member2-img-desctop@2x.jpg 2x"
+                                media="(min-width: 1200px)">
+                            <source srcset="./images/member2-img-tablet.jpg 1x, ./images/member2-img-tablet@2x.jpg 2x"
+                                media="(min-width: 768px)">
+                            <source srcset="./images/member2-img-portrait.jpg 1x, ./images/member2-img-portrait@2x.jpg 2x">
+                            <img class="our-team-list__img" src="./images/member2-img-portrait.jpg" alt="Фото работника">
+                        </picture>
                         <div class="card">
                             <h3 class="card__title">Ольга Репина</h3>
                             <p class="card__text" lang="en">Frontend Developer</p>
@@ -219,7 +231,14 @@
                         </div>
                     </li>
                     <li class="our-team-list__item">
-                        <img src="./images/photo-3.jpg" alt="Фото работника" width="270">
+                        <picture>
+                            <source srcset="./images/member3-img-desctop.jpg 1x, ./images/member3-img-desctop@2x.jpg 2x"
+                                media="(min-width: 1200px)">
+                            <source srcset="./images/member3-img-tablet.jpg 1x, ./images/member3-img-tablet@2x.jpg 2x"
+                                media="(min-width: 768px)">
+                            <source srcset="./images/member3-img-portrait.jpg 1x, ./images/member3-img-portrait@2x.jpg 2x">
+                            <img class="our-team-list__img" src="./images/member3-img-portrait.jpg" alt="Фото работника">
+                        </picture>
                         <div class="card">
                             <h3 class="card__title">Николай Тарасов</h3>
                             <p class="card__text" lang="en">Marketing</p>
@@ -256,7 +275,14 @@
                         </div>
                     </li>
                     <li class="our-team-list__item">
-                        <img src="./images/photo-4.jpg" alt="Фото работника" width="270">
+                        <picture>
+                            <source srcset="./images/member4-img-desctop.jpg 1x, ./images/member4-img-desctop@2x.jpg 2x"
+                                media="(min-width: 1200px)">
+                            <source srcset="./images/member4-img-tablet.jpg 1x, ./images/member4-img-tablet@2x.jpg 2x"
+                                media="(min-width: 768px)">
+                            <source srcset="./images/member4-img-portrait.jpg 1x, ./images/member4-img-portrait@2x.jpg 2x">
+                            <img class="our-team-list__img" src="./images/member4-img-portrait.jpg" alt="Фото работника">
+                        </picture>
                         <div class="card">
                             <h3 class="card__title">Михаил Ермаков</h3>
                             <p class="card__text" lang="en">UI Designer</p>

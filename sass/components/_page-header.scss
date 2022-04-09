@@ -8,7 +8,7 @@
 }
 .menu-button{
     display: inline-flex;
-    position: fixed;
+    position: absolute;
     right: 15px;
     z-index: 1;
     margin-left: auto;
@@ -18,6 +18,9 @@
     transition: color 250ms $primary-transition;
     &:hover, &:focus{
         color: $accent-color;
+    }
+    &.is-open{
+        position: fixed;
     }
 }
 .icon-menu{
@@ -51,6 +54,7 @@
        width: 100%;
        padding: 48px 40px;
        background-color: $primary-white-color;
+       overflow: scroll;
    }
 }
 .site-nav{
@@ -104,9 +108,7 @@
 .menu-social{
     @extend %list;
     display: flex;
-}
-.menu-social__item{
-    min-width: 0;
+    flex-wrap: wrap;
 }
 .menu-social__item:not(:last-child){
     margin-right: 20px;

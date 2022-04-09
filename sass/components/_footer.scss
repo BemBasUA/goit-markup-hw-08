@@ -1,3 +1,133 @@
+.page-footer {
+    background-color: $secondary-background-color;
+    padding: 60px 0 60px;
+    text-align: center;
+}
+.address-box{
+    margin-bottom: 60px;
+}
+.logo--inverse {
+    padding: 0;
+    display: inline-block;
+    margin-right: 0;
+    margin-bottom: 20px;
+    color: $primary-white-color;
+}
+.address-list{
+    @extend %list;
+}
+.address-list__item:not(:last-child){
+    margin-bottom: 8px;
+}
+.address-list__link {
+    @extend %link;
+    font-style: normal;
+    line-height: 1.71;
+    color: $address-text-color;
+    transition: color 250ms $primary-transition;
+    &:hover, &:focus{
+    color: $accent-color;
+    }
+    &--white{
+    color: $primary-white-color;
+    }
+}
+.join-box{
+    margin-bottom: 60px;
+}
+.join-box__text {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $primary-white-color;
+    margin-bottom: 20px;
+}
+.social-list__link--inverse{
+    color: $primary-white-color;
+    background: rgba(255, 255, 255, 0.1);
+}
+.subscribe-box__text {
+    display: block;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: $primary-white-color;
+}
+.subscribe-form {
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.subscribe-form__input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.25;
+    color: $primary-white-color;
+    background-color: inherit;
+    &:focus{
+    outline: 1px solid $primary-white-color;
+    }
+    &::placeholder{
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+    }
+}
+.button--flex{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button__icon{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // .page-footer {
 //     background-color: $secondary-background-color;
 //     padding: 60px 0 60px;

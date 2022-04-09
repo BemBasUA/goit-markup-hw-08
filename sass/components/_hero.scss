@@ -1,3 +1,51 @@
+.hero {
+    margin: 0 auto;
+    padding: 118px 0px;
+    text-align: center;
+    background-size: cover;
+    background-color: $secondary-background-color;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/hero-img-portrait.jpg);
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url(../images/hero-img-portrait@2x.jpg);
+    }
+    @media screen and (min-width: 480px){
+        width: 480px;
+    }      
+}
+.hero__title {
+    margin: 0 auto 30px;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $primary-white-color;
+}
+.hero__container{
+    overflow: scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // .hero {
 //     margin: 0 auto;
 //     max-width: 1600px;
