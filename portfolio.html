@@ -27,9 +27,9 @@
         <div class="menu-container" id="menu-container" data-menu>
             <nav class="site-nav">
                 <ul class="site-nav__list">
-                    <li class="site-nav__item"><a class="site-nav__link site-nav__link--current"
+                    <li class="site-nav__item"><a class="site-nav__link"
                             href="./index.html">Студия</a></li>
-                    <li class="site-nav__item"><a class="site-nav__link" href="./portfolio.html">Портфолио</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link site-nav__link--current" href="./portfolio.html">Портфолио</a></li>
                     <li class="site-nav__item"><a class="site-nav__link" href="">Контакти</a></li>
                 </ul>
             </nav>
@@ -84,7 +84,14 @@
                     <li class="examples-list__item">
                         <a class="examples-list__link" href="">
                             <div class="examples-list__thumb">
-                                <img class="examples-list__img" src="./images/portfolio-img-1.jpg" alt="Сайт на экране ноутбука" width="370">
+                                <picture>
+                                    <source srcset="./images/portfolio-img1-desctop.jpg 1x, ./images/portfolio-img1-desctop@2x.jpg 2x"
+                                        media="(min-width: 1200px)">
+                                    <source srcset="./images/portfolio-img1-tablet.jpg 1x, ./images/portfolio-img1-tablet@2x.jpg 2x"
+                                        media="(min-width: 768px)">
+                                    <source srcset="./images/portfolio-img1-phone.jpg 1x, ./images/portfolio-img1-phone@2x.jpg 2x">
+                                    <img class="examples-list__img" src="./images/portfolio-img1-phone.jpg" alt="Сайт на экране ноутбука">
+                                </picture>
                                 <div class="examples-list__overlay">
                                     <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
                                     исчерпывающие сведения о компании или частном лице.</p>
@@ -98,8 +105,15 @@
                     </li>
                     <li class="examples-list__item">
                         <a class="examples-list__link" href="">
-                            <div class="examples-list__thumb">    
-                                <img class="examples-list__img" src="./images/portfolio-img-2.jpg" alt="Постер баскетбола" width="370">
+                            <div class="examples-list__thumb">
+                                <picture>
+                                    <source srcset="./images/portfolio-img2-desctop.jpg 1x, ./images/portfolio-img2-desctop@2x.jpg 2x"
+                                        media="(min-width: 1200px)">
+                                    <source srcset="./images/portfolio-img2-tablet.jpg 1x, ./images/portfolio-img2-tablet@2x.jpg 2x"
+                                        media="(min-width: 768px)">
+                                    <source srcset="./images/portfolio-img2-phone.jpg 1x, ./images/portfolio-img2-phone@2x.jpg 2x">
+                                    <img class="examples-list__img" src="./images/portfolio-img2-phone.jpg" alt="Постер баскетбола">
+                                </picture>
                                 <div class="examples-list__overlay">
                                     <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
                                     исчерпывающие сведения о компании или частном лице.</p>
@@ -114,7 +128,14 @@
                     <li class="examples-list__item">
                         <a class="examples-list__link" href="">
                             <div class="examples-list__thumb">
-                                <img class="examples-list__img" src="./images/portfolio-img-3.jpg" alt="Логотип ресторана" width="370">
+                                <picture>
+                                    <source srcset="./images/portfolio-img3-desctop.jpg 1x, ./images/portfolio-img3-desctop@2x.jpg 2x"
+                                        media="(min-width: 1200px)">
+                                    <source srcset="./images/portfolio-img3-tablet.jpg 1x, ./images/portfolio-img3-tablet@2x.jpg 2x"
+                                        media="(min-width: 768px)">
+                                    <source srcset="./images/portfolio-img3-phone.jpg 1x, ./images/portfolio-img3-phone@2x.jpg 2x">
+                                    <img class="examples-list__img" src="./images/portfolio-img3-phone.jpg" alt="Логотип ресторана">
+                                </picture>
                                 <div class="examples-list__overlay">
                                     <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
                                     исчерпывающие сведения о компании или частном лице.</p>
@@ -129,7 +150,14 @@
                     <li class="examples-list__item">
                         <a class="examples-list__link" href="">
                             <div class="examples-list__thumb">
-                                <img class="examples-list__img" src="./images/portfolio-img-4.jpg" alt="Наушники" width="370">
+                                <picture>
+                                    <source srcset="./images/portfolio-img4-desctop.jpg 1x, ./images/portfolio-img4-desctop@2x.jpg 2x"
+                                        media="(min-width: 1200px)">
+                                    <source srcset="./images/portfolio-img4-tablet.jpg 1x, ./images/portfolio-img4-tablet@2x.jpg 2x"
+                                        media="(min-width: 768px)">
+                                    <source srcset="./images/portfolio-img4-phone.jpg 1x, ./images/portfolio-img4-phone@2x.jpg 2x">
+                                    <img class="examples-list__img" src="./images/portfolio-img4-phone.jpg" alt="Наушники">
+                                </picture>
                                 <div class="examples-list__overlay">
                                     <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
                                     исчерпывающие сведения о компании или частном лице.</p>
@@ -144,7 +172,14 @@
                     <li class="examples-list__item">
                         <a class="examples-list__link" href="">
                             <div class="examples-list__thumb">
-                                <img class="examples-list__img" src="./images/portfolio-img-5.jpg" alt="Коробки" width="370">
+                                <picture>
+                                    <source srcset="./images/portfolio-img5-desctop.jpg 1x, ./images/portfolio-img5-desctop@2x.jpg 2x"
+                                        media="(min-width: 1200px)">
+                                    <source srcset="./images/portfolio-img5-tablet.jpg 1x, ./images/portfolio-img5-tablet@2x.jpg 2x"
+                                        media="(min-width: 768px)">
+                                    <source srcset="./images/portfolio-img5-phone.jpg 1x, ./images/portfolio-img5-phone@2x.jpg 2x">
+                                    <img class="examples-list__img" src="./images/portfolio-img5-phone.jpg" alt="Коробки">
+                                </picture>
                                 <div class="examples-list__overlay">
                                     <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
                                     исчерпывающие сведения о компании или частном лице.</p>
@@ -159,7 +194,14 @@
                     <li class="examples-list__item">
                         <a class="examples-list__link" href="">
                             <div class="examples-list__thumb">
-                                <img class="examples-list__img" src="./images/portfolio-img-6.jpg" alt="Сайт на экране imac" width="370">
+                                <picture>
+                                    <source srcset="./images/portfolio-img6-desctop.jpg 1x, ./images/portfolio-img6-desctop@2x.jpg 2x"
+                                        media="(min-width: 1200px)">
+                                    <source srcset="./images/portfolio-img6-tablet.jpg 1x, ./images/portfolio-img6-tablet@2x.jpg 2x"
+                                        media="(min-width: 768px)">
+                                    <source srcset="./images/portfolio-img6-phone.jpg 1x, ./images/portfolio-img6-phone@2x.jpg 2x">
+                                    <img class="examples-list__img" src="./images/portfolio-img6-phone.jpg" alt="Сайт на экране imac">
+                                </picture>
                                 <div class="examples-list__overlay">
                                     <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
                                     исчерпывающие сведения о компании или частном лице.</p>
@@ -174,7 +216,14 @@
                     <li class="examples-list__item">
                         <a class="examples-list__link" href="">
                             <div class="examples-list__thumb">
-                                <img class="examples-list__img" src="./images/portfolio-img-7.jpg" alt="Книга" width="370">
+                                <picture>
+                                    <source srcset="./images/portfolio-img7-desctop.jpg 1x, ./images/portfolio-img7-desctop@2x.jpg 2x"
+                                        media="(min-width: 1200px)">
+                                    <source srcset="./images/portfolio-img7-tablet.jpg 1x, ./images/portfolio-img7-tablet@2x.jpg 2x"
+                                        media="(min-width: 768px)">
+                                    <source srcset="./images/portfolio-img7-phone.jpg 1x, ./images/portfolio-img7-phone@2x.jpg 2x">
+                                    <img class="examples-list__img" src="./images/portfolio-img7-phone.jpg" alt="Книга">
+                                </picture>
                                 <div class="examples-list__overlay">
                                     <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
                                     исчерпывающие сведения о компании или частном лице.</p>
@@ -189,7 +238,14 @@
                     <li class="examples-list__item">
                         <a class="examples-list__link" href="">
                             <div class="examples-list__thumb">
-                                <img class="examples-list__img" src="./images/portfolio-img-8.jpg" alt="Бирка" width="370">
+                                <picture>
+                                    <source srcset="./images/portfolio-img8-desctop.jpg 1x, ./images/portfolio-img8-desctop@2x.jpg 2x"
+                                        media="(min-width: 1200px)">
+                                    <source srcset="./images/portfolio-img8-tablet.jpg 1x, ./images/portfolio-img8-tablet@2x.jpg 2x"
+                                        media="(min-width: 768px)">
+                                    <source srcset="./images/portfolio-img8-phone.jpg 1x, ./images/portfolio-img8-phone@2x.jpg 2x">
+                                    <img class="examples-list__img" src="./images/portfolio-img8-phone.jpg" alt="Бирка">
+                                </picture>
                                 <div class="examples-list__overlay">
                                     <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
                                     исчерпывающие сведения о компании или частном лице.</p>
@@ -204,7 +260,14 @@
                     <li class="examples-list__item">
                         <a class="examples-list__link" href="">
                             <div class="examples-list__thumb">
-                                <img class="examples-list__img" src="./images/portfolio-img-9.jpg" alt="Ноутбук" width="370">
+                                <picture>
+                                    <source srcset="./images/portfolio-img9-desctop.jpg 1x, ./images/portfolio-img9-desctop@2x.jpg 2x"
+                                        media="(min-width: 1200px)">
+                                    <source srcset="./images/portfolio-img9-tablet.jpg 1x, ./images/portfolio-img9-tablet@2x.jpg 2x"
+                                        media="(min-width: 768px)">
+                                    <source srcset="./images/portfolio-img9-phone.jpg 1x, ./images/portfolio-img9-phone@2x.jpg 2x">
+                                    <img class="examples-list__img" src="./images/portfolio-img9-phone.jpg" alt="Ноутбук">
+                                </picture>
                                 <div class="examples-list__overlay">
                                     <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
                                     исчерпывающие сведения о компании или частном лице.</p>
