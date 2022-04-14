@@ -9,6 +9,9 @@
     margin: $card-set-gap;
     flex-basis: calc((100% - 4 * #{$card-set-gap}) / 2);
     min-width: 135px;
+    @media screen and (min-width: 768px) {
+        flex-basis: calc((100% - 6 * #{$card-set-gap}) / 3);
+    }
 }
 .clients-list__link {
     @extend %link;

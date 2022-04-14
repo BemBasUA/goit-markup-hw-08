@@ -3,8 +3,17 @@
     padding: 60px 0 60px;
     text-align: center;
 }
+.page-footer__wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-bottom: 60px;
+}
 .address-box{
     margin-bottom: 60px;
+    @media screen and (min-width: 768px){
+        margin-bottom: 0;
+    }
 }
 .logo--inverse {
     padding: 0;
@@ -34,6 +43,9 @@
 }
 .join-box{
     margin-bottom: 60px;
+    @media screen and (min-width: 768px) {
+        margin-bottom: 0;
+    }
 }
 .join-box__text {
     text-transform: uppercase;
@@ -71,6 +83,9 @@
     font-size: 16px;
     line-height: 1.25;
     color: rgba(255, 255, 255, 0.6);
+    }
+    @media screen and (min-width: 768px) {
+        width: 450px;
     }
 }
 .button--flex{
