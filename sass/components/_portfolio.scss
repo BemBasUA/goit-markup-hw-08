@@ -49,6 +49,10 @@
         margin: $card-set-gap;
         flex-basis: calc((100% - 4 * #{$card-set-gap}) / 2);
     }
+    @media screen and (min-width: 1200px) {
+        margin: $card-set-gap;
+        flex-basis: calc((100% - 6 * #{$card-set-gap}) / 3);
+    }
     &:hover{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -62,6 +66,10 @@
         @media screen and (min-width: 768px) {
             margin: $card-set-gap;
             flex-basis: calc((100% - 4 * #{$card-set-gap}) / 2);
+        }
+        @media screen and (min-width: 1200px) {
+            margin: $card-set-gap;
+            flex-basis: calc((100% - 6 * #{$card-set-gap}) / 3);
         }
     }
 }
@@ -89,6 +97,12 @@
     background-color: rgba(33, 150, 243, 0.9);
     transition: transform 250ms $primary-transition;
     overflow: scroll;
+    @media screen and (min-width: 768px) {
+        padding: 49px 24px;
+    }
+    @media screen and (min-width: 1200px) {
+        padding: 62px 24px;
+    }
 }
 .product {
     padding: 20px 24px;

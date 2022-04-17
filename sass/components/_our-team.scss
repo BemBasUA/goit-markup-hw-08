@@ -22,12 +22,20 @@
         margin: $card-set-gap;
         flex-basis: calc((100% - 4 * #{$card-set-gap}) / 2);
     }
+    @media screen and (min-width: 1200px){
+        margin: $card-set-gap;
+        flex-basis: calc((100% - 8 * #{$card-set-gap}) / 4);
+    }
 }
 .our-team-list__item:not(:last-child) {
     margin-bottom: 30px;
     @media screen and (min-width: 768px) {
         margin: $card-set-gap;
         flex-basis: calc((100% - 4 * #{$card-set-gap}) / 2);
+    }
+    @media screen and (min-width: 1200px) {
+        margin: $card-set-gap;
+        flex-basis: calc((100% - 8 * #{$card-set-gap}) / 4);
     }
 }
 .card {
