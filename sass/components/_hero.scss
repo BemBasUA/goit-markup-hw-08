@@ -58,7 +58,9 @@
     }
 }
 .hero__container{
-    overflow: scroll;
+    @media screen and (max-width: 767px) {
+        overflow: scroll;
+    }
     @media screen and (min-width: 768px) {
         width: auto;
         padding: 0;
