@@ -2,6 +2,9 @@
     background-color: $secondary-background-color;
     padding: 60px 0 60px;
     text-align: center;
+    @media screen and (min-width: 1200px){
+        text-align: start;
+    }
 }
 .page-footer__container {
     @media screen and (min-width: 1200px){
@@ -15,6 +18,9 @@
     justify-content: space-around;
     align-items: baseline;
     margin-bottom: 60px;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 0;
     }
 }
 .address-box{
@@ -90,7 +96,10 @@
     margin-bottom: 20px;
     text-transform: uppercase;
     color: $primary-white-color;
-    text-align: start;
+    text-align: center;
+    @media screen and (min-width: 1200px){
+        text-align: start;
+    }
 }
 .subscribe-form {
     border-radius: 4px;

@@ -15,7 +15,7 @@
     display: inline-flex;
     position: absolute;
     right: 15px;
-    z-index: 1;
+    z-index: 2;
     margin-left: auto;
     padding: 10px 0;
     border: none;
@@ -49,6 +49,7 @@
 }
 .menu-container {
     display: none;
+    z-index: 1;
         &.is-open {
             display: flex;
             background-color: $primary-white-color;
@@ -140,8 +141,13 @@
     }
 }
 .contacts__item{
+    &:first-child{
+        margin-bottom: 32px;
+        @media screen and (min-width: 768px){
+            margin-bottom: 0;
+        }
+    }
     &:last-child{
-    margin-bottom: 32px;
         @media screen and (min-width: 768px) {
         margin-bottom: 10px;
         }
